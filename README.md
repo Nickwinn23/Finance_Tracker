@@ -1,4 +1,4 @@
-# 💰 Finance Tracker
+# Finance Tracker
 
 A full-stack personal finance web application built in Python. This project was designed and developed from scratch to track personal expenses, visualize spending habits, and help maintain a customizable budget rule.
 
@@ -6,7 +6,7 @@ A full-stack personal finance web application built in Python. This project was 
 
 ## Overview
 
-Finance Tracker started as a personal challenge to build a practical, real-world application using Python and SQLite. Every feature was deliberately designed around a real use case: making it easy to log, review, and reflect on my personal spending habits.
+Finance Tracker started as a personal challenge to build a practical, real-world application using Python and SQL. Every feature was deliberately designed around a real use case: making it easy to log, review, and reflect on my personal spending habits.
 
 The app follows a customizable budgeting philosophy, splitting expenses into Needs, Wants, and Savings with fully customizable targets and real-time visual feedback on whether spending aligns with goals.
 
@@ -20,7 +20,7 @@ Beyond the practical use case, this project was an opportunity to build somethin
 
 ---
 
-## Preview
+## Preview (Test Data)
 
 ![Finance Tracker Dashboard](assets/dashboard.png)
 
@@ -30,7 +30,7 @@ Beyond the practical use case, this project was an opportunity to build somethin
 A clean form-based interface for logging expenses by description, category, amount, payment method, and date. Data is stored in a local SQLite database and instantly reflected across all pages.
 
 **Dynamic Dashboard**
-An interactive multi-panel dashboard built with Plotly, featuring spending breakdowns by category, spending trends over time, biggest expenses, and a real-time 50/30/20 budget rule chart. The dashboard supports weekly, monthly, and yearly filtering with period selection.
+An interactive multi-panel dashboard built with Plotly, featuring spending breakdowns by category, spending trends over time, biggest expenses, and a real-time budget rule chart. The dashboard supports weekly, monthly, and yearly filtering with period selection.
 
 **Spending Reports**
 A dedicated reports page that surfaces deeper insights such as:
