@@ -6,11 +6,9 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import load_data, filter_data, get_periods, CATEGORY_BUCKETS
-from components import render_sidebar, check_password
+from components import render_sidebar
 
 st.set_page_config(layout="wide")
-if not check_password():
-    st.stop()
 render_sidebar()
 
 st.title("📊 Dashboard")
