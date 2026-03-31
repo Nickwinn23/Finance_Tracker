@@ -85,5 +85,6 @@ with col2:
         conn.commit()
         conn.close()
         st.session_state.expense_rows = [{"date": date_type.today(), "description": "", "category": "Groceries", "amount": 0.0, "payment_method": "Cash", "notes": ""}]
+        st.cache_data.clear()
         st.success(f"✅ {saved} expense(s) saved successfully!")
         st.rerun()

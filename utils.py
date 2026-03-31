@@ -13,6 +13,7 @@ CATEGORY_BUCKETS = {
     "Other": "Needs"
 }
 
+@st.cache_data
 def load_data():
     conn = sqlite3.connect("finances.db")
     c = conn.cursor()
