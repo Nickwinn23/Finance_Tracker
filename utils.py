@@ -40,7 +40,7 @@ def seed_sample_data():
     c.execute("SELECT COUNT(*) FROM expenses")
     count = c.fetchone()[0]
     
-    if count == 0:
+    if True:
         import random
         from datetime import date, timedelta
         sample_expenses = [
