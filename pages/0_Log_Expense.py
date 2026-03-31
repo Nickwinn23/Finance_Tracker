@@ -2,11 +2,9 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 from datetime import date as date_type
-from components import render_sidebar, check_password
+from components import render_sidebar
 
 st.set_page_config(layout="wide")
-if not check_password():
-    st.stop()
 render_sidebar()
 
 def init_db():
