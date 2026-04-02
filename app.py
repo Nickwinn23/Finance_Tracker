@@ -43,8 +43,8 @@ if "savings_pct_target" not in st.session_state:
 st.markdown("""
     <style>
         .hero { text-align: center; padding: 3rem 2rem 2rem; }
-        .logo-text { font-size: 22px; font-weight: 500; color: #00C853; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1rem; }
-        .hero-title { font-size: 48px; font-weight: 500; color: #FAFAFA; line-height: 1.15; margin-bottom: 0.5rem; }
+        .logo-text { font-size: 48px; font-weight: 500; color: #00C853; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1rem; }
+        .hero-title { font-size: 24px; font-weight: 500; color: #FAFAFA; line-height: 1.15; margin-bottom: 0.5rem; }
         .hero-title span { color: #00C853; }
         .hero-sub { font-size: 16px; color: #888; margin-bottom: 2rem; }
         .stat-card { background: #1A1F2E; border-radius: 12px; padding: 1.2rem; border-left: 3px solid #00C853; }
